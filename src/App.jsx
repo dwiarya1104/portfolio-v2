@@ -12,7 +12,6 @@ function App() {
   useEffect(() => {
     AOS.init({
       duration: 1000,
-      offset: 200,
       easing: 'ease',
       anchorPlacement: 'top-bottom',
     });

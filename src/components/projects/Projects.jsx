@@ -49,20 +49,24 @@ const projects = [
 export const Projects = () => {
     return (
         <div className="md:mx-32 min-h-screen flex flex-col mt-32">
-            <h1 data-aos="fade-down" className="text-4xl font-bold text-center">Projects</h1>
+            <h1 className="text-4xl font-bold text-center">Projects</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-5 w-full">
+            <div className="flex flex-wrap mt-5 w-full">
                 {projects.map((project, index) => (
-                    <CardProject
+                    <div
                         key={index}
-                        img={project.img}
-                        title={project.title}
-                        desc={project.desc}
-                        link={project.link}
-                        index={index}
-                    />
+                        className="w-full md:w-1/2 p-3"
+                    >
+                        <CardProject
+                            img={project.img}
+                            title={project.title}
+                            desc={project.desc}
+                            link={project.link}
+                            index={index}
+                        />
+                    </div>
                 ))}
             </div>
-        </div>
+        </div >
     )
 }

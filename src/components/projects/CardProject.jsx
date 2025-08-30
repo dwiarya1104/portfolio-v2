@@ -11,8 +11,8 @@ export const CardProject = ({ img, title, desc, link, index }) => {
       data-aos={index % 2 === 0 ? 'fade-up-right' : 'fade-up-left'}
       data-aos-duration={index % 2 === 0 ? '1000' : '1200'}
       data-aos-anchor-placement="top-bottom"
-      data-aos-delay={isDesktop ? index * 200 : 0}
-      className="group mx-3 card-spark relative w-full rounded-xl overflow-hidden">
+      data-aos-delay={isDesktop ? index * 250 : 0}
+      className="group card-spark relative w-full rounded-xl overflow-hidden">
       <div
         className="spark"
       />
