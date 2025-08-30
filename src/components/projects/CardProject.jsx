@@ -3,9 +3,16 @@ import '../../spark.css'
 import { FaShare } from 'react-icons/fa'
 import { RiShareBoxFill } from 'react-icons/ri'
 
-export const CardProject = ({ img, title, desc, link }) => {
+export const CardProject = ({ img, title, desc, link, index }) => {
+  const isDesktop = window.innerWidth >= 768; // md breakpoint
+
   return (
-    <div className="card-spark relative w-full rounded-xl overflow-hidden">
+    <div
+      data-aos={index % 2 === 0 ? 'fade-up-right' : 'fade-up-left'}
+      data-aos-duration={index % 2 === 0 ? '1000' : '1200'}
+      data-aos-anchor-placement="top-bottom"
+      data-aos-delay={isDesktop ? index * 200 : 0}
+      className="group card-spark relative w-full rounded-xl overflow-hidden">
       <div
         className="spark"
       />

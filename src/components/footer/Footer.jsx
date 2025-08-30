@@ -28,13 +28,14 @@ export const Footer = () => {
 
                 {/* Left side */}
                 <div className="flex flex-col md:items-start items-center text-black">
-                    <span className="text-xl text-gray-500 tracking-wide uppercase">
+                    <span data-aos="fade-up" className="text-xl text-gray-500 tracking-wide uppercase text-center">
                         Available for new projects!
                     </span>
-                    <span className="text-2xl font-bold mt-1">
+                    <span data-aos="fade-up" className="text-2xl font-bold mt-1">
                         Contact Me
                     </span>
                     <a
+                        data-aos="fade-up"
                         href="mailto:aryeahx@gmail.com"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -46,10 +47,10 @@ export const Footer = () => {
 
                 {/* Right side */}
                 <div className="flex flex-col items-center md:items-end">
-                    <p className="mb-3 font-semibold text-xl text-gray-800">
+                    <p data-aos="fade-up" className="mb-3 font-semibold text-xl text-gray-800">
                         Let&apos;s connect
                     </p>
-                    <div className="flex gap-5">
+                    <div data-aos="fade-up" className="flex gap-5">
                         {socialMedia.map((social, index) => (
                             <SocialMedia key={index} icon={social.icon} link={social.link} />
                         ))}

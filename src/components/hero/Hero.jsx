@@ -1,4 +1,5 @@
 import ScrollVelocity from "./ScrollText"
+
 import img from '../../assets/title-icon.png'
 
 export const Hero = () => {
@@ -14,7 +15,8 @@ export const Hero = () => {
                     className="md:text-7xl text-5xl text-black text-center"
                 >
                     Dwi Arya Putra
-                </h1>                <p className="text-black mt-3 text-center mx-2">Sometimes you need a break, so you don't end up in an infinite loop of stress.</p>
+                </h1>
+                <p className="text-black mt-3 text-center mx-2">Sometimes you need a break, so you don't end up in an infinite loop of stress.</p>
                 <div className="border md:w-1/2 w-9/12 border-black mt-5"></div>
             </div>
 
@@ -25,7 +27,7 @@ export const Hero = () => {
                 damping={20}
                 stiffness={100}
             />
-            <img src={img} className="absolute bottom-0 md:hidden block z-50 w-1/2" />
+            <img data-aos="fade-up" data-aos-duration="100" src={img} className="absolute bottom-0 md:hidden block z-50 w-1/2" />
         </div>
     )
 }
