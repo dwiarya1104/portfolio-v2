@@ -47,7 +47,7 @@ export const Footer = () => {
 
                 {/* Right side */}
                 <div className="flex flex-col items-center md:items-end">
-                    <p data-aos="fade-up" className="mb-3 font-semibold text-xl text-gray-800">
+                    <p data-aos="fade-up" className="mb-3 font-bold text-black text-2xl">
                         Let&apos;s connect
                     </p>
                     <div data-aos="fade-up" className="flex gap-5">

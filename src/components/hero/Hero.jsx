@@ -9,7 +9,6 @@ export const Hero = () => {
                 className="absolute inset-0 h-full w-full bg-white bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]"
             ></div>
             <div className="flex  flex-col items-center justify-center z-10 ">
-
                 <h1
                     style={{ fontWeight: 1000 }}
                     className="md:text-7xl text-5xl text-black text-center"

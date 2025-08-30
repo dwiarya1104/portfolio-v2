@@ -33,13 +33,13 @@ const projects = [
         link: "https://workspace.dnstech.co.id/"
     },
     {
-        title: 'Company Profile of DNS Tech',
+        title: 'Compro DNS Tech',
         desc: 'A Company Profile Website for DNS Tech',
         img: cpDns,
         link: "https://dnstech.co.id/"
     },
     {
-        title: 'Company Profile of Parenthink',
+        title: 'Compro Parenthink',
         desc: 'A Company Profile Website for Parenthink',
         img: cpParenthink,
         link: "https://parenthink-pkk-unj.vercel.app/"
@@ -48,7 +48,7 @@ const projects = [
 
 export const Projects = () => {
     return (
-        <div className="md:mx-32 min-h-screen flex flex-col mt-32">
+        <div className="md:mx-32 min-h-screen flex flex-col mt-32 overflow-hidden">
             <h1 className="text-4xl font-bold text-center">Projects</h1>
 
             <div className="flex flex-wrap mt-5 w-full">

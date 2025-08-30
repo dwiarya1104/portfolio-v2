@@ -13,7 +13,9 @@ function App() {
     AOS.init({
       duration: 1000,
       easing: 'ease',
-      anchorPlacement: 'top-bottom',
+      once: false,
+      offset: 300
+      // anchorPlacement: 'top-bottom',
     });
   }, []);
   return (
