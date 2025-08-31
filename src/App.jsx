@@ -14,7 +14,7 @@ function App() {
       duration: 1000,
       easing: 'ease',
       once: false,
-      offset: 300
+      // offset: 300
       // anchorPlacement: 'top-bottom',
     });
   }, []);
