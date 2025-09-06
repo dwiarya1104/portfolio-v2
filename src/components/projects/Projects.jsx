@@ -6,6 +6,7 @@ import mag from '../../assets/projects/mag.png'
 import ws from '../../assets/projects/ws.png'
 import cpDns from '../../assets/projects/cp-dns.png'
 import cpParenthink from '../../assets/projects/cp-parenthink.png'
+import scoreboard from '../../assets/projects/scoreboard.png'
 
 const projects = [
     {
@@ -47,7 +48,7 @@ const projects = [
     {
         title: 'Scoreboard',
         desc: 'A Simple Scoreboard Application',
-        img: cpParenthink,
+        img: scoreboard,
         link: "https://scoreboardonline.vercel.app/"
     },
 ]
