@@ -44,6 +44,12 @@ const projects = [
         img: cpParenthink,
         link: "https://parenthink-pkk-unj.vercel.app/"
     },
+    {
+        title: 'Scoreboard',
+        desc: 'A Simple Scoreboard Application',
+        img: cpParenthink,
+        link: "https://scoreboardonline.vercel.app/"
+    },
 ]
 
 export const Projects = () => {
