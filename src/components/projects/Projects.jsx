@@ -7,6 +7,7 @@ import ws from '../../assets/projects/ws.png'
 import cpDns from '../../assets/projects/cp-dns.png'
 import cpParenthink from '../../assets/projects/cp-parenthink.png'
 import scoreboard from '../../assets/projects/scoreboard.png'
+import quranTracker from '../../assets/projects/quran-tracker.png'
 
 const projects = [
     {
@@ -50,6 +51,12 @@ const projects = [
         desc: 'A Simple Scoreboard Application',
         img: scoreboard,
         link: "https://scoreboardonline.vercel.app/"
+    },
+    {
+        title: 'Quran Tracker',
+        desc: 'A Simple Quran Tracker Application',
+        img: quranTracker,
+        link: "https://readtrackr.vercel.app/login"
     },
 ]
 
