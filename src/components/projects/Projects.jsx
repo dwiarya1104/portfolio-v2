@@ -20,7 +20,7 @@ const projects = [
         title: 'IdSmartCare',
         desc: 'Application for Pharmacy and Clinic',
         img: idsc,
-        link: "https://my.idsmartcare.com/"
+        link: "-"
     },
     {
         title: 'CMS MAG',
@@ -32,32 +32,20 @@ const projects = [
         title: 'Workspace',
         desc: 'An Application for Managing Office Needs',
         img: ws,
-        link: "https://workspace.dnstech.co.id/"
+        link: "-"
     },
     {
         title: 'Compro DNS Tech',
         desc: 'A Company Profile Website for DNS Tech',
         img: cpDns,
-        link: "https://dnstech.co.id/"
+        link: "-"
     },
     {
         title: 'Compro Parenthink',
         desc: 'A Company Profile Website for Parenthink',
         img: cpParenthink,
         link: "https://parenthink-pkk-unj.vercel.app/"
-    },
-    {
-        title: 'Scoreboard',
-        desc: 'A Simple Scoreboard Application',
-        img: scoreboard,
-        link: "https://scoreboardonline.vercel.app/"
-    },
-    {
-        title: 'Quran Tracker',
-        desc: 'A Simple Quran Tracker Application',
-        img: quranTracker,
-        link: "https://readtrackr.vercel.app/login"
-    },
+    }
 ]
 
 export const Projects = () => {
